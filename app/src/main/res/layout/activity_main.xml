@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/show_direct_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW DIRECT DIALOG" />
+
+            <Button
+                android:id="@+id/show_message_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW MESSAGE DIALOG" />
+
+            <Button
+                android:id="@+id/show_list_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW LIST DIALOG" />
+
+            <Button
+                android:id="@+id/show_single_choice_list_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW SINGLE CHOICE LIST DIALOG" />
+
+            <Button
+                android:id="@+id/show_multi_choice_list_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW MULTI CHOICE LIST DIALOG" />
+
+            <Button
+                android:id="@+id/show_custom_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW CUSTOM DIALOG" />
+
+            <Button
+                android:id="@+id/show_datepicker_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW DATEPICKER DIALOG" />
+
+            <Button
+                android:id="@+id/show_timepicker_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW TIMEPICKER DIALOG" />
+
+            <Button
+                android:id="@+id/show_message_with_interface_dialog_button"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="SHOW MESSAGE DIALOG" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
