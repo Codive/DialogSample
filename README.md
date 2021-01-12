@@ -1,0 +1,2 @@
+# DialogSample
+Android Dialog Sample
